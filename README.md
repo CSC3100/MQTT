@@ -21,6 +21,5 @@ This class is a simple MQTT publisher and subscriber (two in one). It publishes 
 A drafted class diagram of the current release is as follows:
 
 <p align="center">
-<img width="600" src="https://github.com/CSC3100/GUI/assets/3814755/7aea8a30-8bb5-4502-ac32-2607c4f0c2a1">
+<img width="600" src="https://github.com/CSC3100/MQTT/assets/3814755/b621ae2a-662c-4dae-993b-731617546fde">
 </p>
-
