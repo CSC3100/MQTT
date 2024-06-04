@@ -17,6 +17,7 @@
 ...
 
 ## Blueprint
+A drafted class diagram of the current release is as follows:
 
 <p align="center">
 <img width="600" src="https://github.com/CSC3100/GUI/assets/3814755/7aea8a30-8bb5-4502-ac32-2607c4f0c2a1">
