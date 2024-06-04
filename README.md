@@ -1,6 +1,6 @@
 ![Static Badge](https://img.shields.io/badge/author-javiergs-orange)
-![GitHub repo size](https://img.shields.io/github/repo-size/CSC3100/GUI)
-![GitHub Release](https://img.shields.io/github/v/release/CSC3100/GUI)
+![GitHub repo size](https://img.shields.io/github/repo-size/CSC3100/MQTT)
+![GitHub Release](https://img.shields.io/github/v/release/CSC3100/MQTT)
 
 # MQTT (Message Queuing Telemetry Transport) Example
 
