@@ -27,7 +27,7 @@ A drafted class diagram of the current release is as follows:
 
 > [!IMPORTANT]  
 > **Allowing connections from clients outside of our machine**
-> When trying to send messages to the broker you might have noticed that when you connect to the broker from a different machine than the one where the broker was installed that you were unable to do so. 
+> <p>When trying to send messages to the broker you might have noticed that when you connect to the broker from a different machine than the one where the broker was installed that you were unable to do so. </p>
 > This is due to the operating system not having the needed ports configured. To change this we have to create an inbound rule for mosquitto broker’s TCP port (by default it is port 1883 but you can change it in the .conf file). 
 > On Windows, open your Windows Defender Firewall (you can get to it by going to Control Panel > Change to large icons > Windows Defender Firewall)
 > Go to Advanced settings
