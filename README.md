@@ -34,6 +34,6 @@ A drafted class diagram of the current release is as follows:
 > Click on ‘Inbound Rules’ and then on ‘New Rule…’
 > On the ‘New Inbound Rule Wizard” window, select ‘Port’ and hit next.
 > Select ‘TCP’ and ‘Specific local port’, on the ports’ textbox type 1883 (or your mosquitto broker port if you changed it yourself in the .conf file). Hit next once you are done.
-Now select ‘Allow the connection’ and hit next.
-Now select to what domains that this rule applies to (Domain, private or public). You can select all but this is not recommended in a production environment. Hit next once you are done and finally type a name for your new rule. Name it something like ‘MQTT Broker Port’ and hit Finish.
-Now your rule is created and you should be able to connect from another machine in the same network.
+> Now select ‘Allow the connection’ and hit next.
+> Now select to what domains that this rule applies to (Domain, private or public). You can select all but this is not recommended in a production environment. Hit next once you are done and finally type a name for your new rule. Name it something like ‘MQTT Broker Port’ and hit Finish.
+> Now your rule is created and you should be able to connect from another machine in the same network.
