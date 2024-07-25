@@ -24,3 +24,17 @@ A drafted class diagram of the current release is as follows:
 <p align="center">
 <img width="600" src="https://github.com/CSC3100/MQTT/assets/3814755/b621ae2a-662c-4dae-993b-731617546fde">
 </p>
+
+> [!IMPORTANT]  
+> Allowing connections from clients outside of our machine 
+
+When trying to send messages to the broker you might have noticed that when you connect to the broker from a different machine than the one where the broker was installed that you were unable to do so. 
+This is due to the operating system not having the needed ports configured. To change this we have to create an inbound rule for mosquitto broker’s TCP port (by default it is port 1883 but you can change it in the .conf file). 
+On Windows, open your Windows Defender Firewall (you can get to it by going to Control Panel > Change to large icons > Windows Defender Firewall)
+Go to Advanced settings
+Click on ‘Inbound Rules’ and then on ‘New Rule…’
+On the ‘New Inbound Rule Wizard” window, select ‘Port’ and hit next.
+Select ‘TCP’ and ‘Specific local port’, on the ports’ textbox type 1883 (or your mosquitto broker port if you changed it yourself in the .conf file). Hit next once you are done.
+Now select ‘Allow the connection’ and hit next.
+Now select to what domains that this rule applies to (Domain, private or public). You can select all but this is not recommended in a production environment. Hit next once you are done and finally type a name for your new rule. Name it something like ‘MQTT Broker Port’ and hit Finish.
+Now your rule is created and you should be able to connect from another machine in the same network.
